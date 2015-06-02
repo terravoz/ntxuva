@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file
+ * Code for the Ntxuva Audio Reports feature.
+ */
+
+include_once 'ntxuva_audio_reports.features.inc';
+//@todo: programatically set field display to file_rendered; see field_ui_display_overview_form_submit()
+//@todo: set audiofield default player through features
+function ntxuva_audio_reports_form_alter($form, $form_state, $form_id) {
+  //var_dump($form['#submit']);
+}
